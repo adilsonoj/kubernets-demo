@@ -1,0 +1,2 @@
+#!bin/bash
+docker build -t adilsonoj/kubernets-web:v2 --push .

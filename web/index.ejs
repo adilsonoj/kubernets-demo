@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      width: 100vw;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-color: #2c2c2c;
+      color: #FFF;
+    }
+  </style>
+</head>
+
+<body>
+  <p>HOST</p>
+  <p>
+    <%= payload.host %>
+  </p>
+  <p>
+    Version: <%= payload.version %>
+  </p>
+
+</body>
+
+</html>
